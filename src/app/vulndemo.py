@@ -2,7 +2,7 @@
 
 # Hardcoded secret (Snyk will detect this)
 
-TEST_SECRET = "SNYK_TEST_SECRET_ABC123456"
+TEST_SECRET = os.environ['SNYK_TEST_SECRET']
 
 # Command injection (Snyk will detect this)
 import os
