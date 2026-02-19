@@ -1,8 +1,7 @@
 # Deliberate vulnerabilities for Snyk Code PR Check testing
 
 # Hardcoded secret (Snyk will detect this)
-
-TEST_SECRET = os.environ['SNYK_TEST_SECRET']
+TEST_SECRET = "SNYK_TEST_SECRET_ABC123456"
 
 # Command injection (Snyk will detect this)
 import os
